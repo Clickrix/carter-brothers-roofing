@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carter Brothers Roofing | Leak Detection & Roof Repair in Cincinnati, OH</title>
+<meta name="description" content="Carter Brothers Roofing — Cincinnati's leak detection and roof repair specialists. Fast bookings and scheduling. Call (513) 957-2600.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--navy:#0d2b52;--amber:#f5a623;--ink:#1a2433;--muted:#5b6b80;--bg:#f6f8fb;--card:#fff}
+body{font-family:'Barlow',Arial,sans-serif;color:var(--ink);line-height:1.6;background:#fff}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+header.site{position:sticky;top:0;z-index:50;background:var(--navy);color:#fff;box-shadow:0 2px 12px rgba(0,0,0,.2)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;max-width:1120px;margin:0 auto}
+.brand{font-weight:800;font-size:1.25rem;letter-spacing:.5px}
+.brand span{color:var(--amber)}
+.nav-cta{display:flex;gap:12px;align-items:center}
+.btn{display:inline-block;padding:12px 26px;border-radius:8px;font-weight:700;text-decoration:none;transition:.2s}
+.btn-amber{background:var(--amber);color:#1a1400}
+.btn-amber:hover{background:#d98e12;transform:translateY(-1px)}
+.btn-outline{border:2px solid #fff;color:#fff}
+.btn-outline:hover{background:#fff;color:var(--navy)}
+.hero{background:linear-gradient(120deg,#0d2b52 0%,#123c75 60%,#1a4f94 100%);color:#fff;padding:84px 0 96px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;border-radius:50%;background:rgba(245,166,35,.12)}
+.hero h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.15;font-weight:800;max-width:640px;margin-bottom:18px}
+.hero h1 span{color:var(--amber)}
+.hero p{font-size:1.15rem;color:#d6e3f5;max-width:600px;margin-bottom:30px}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap}
+.trust{background:var(--amber);padding:18px 0}
+.trust-row{display:flex;flex-wrap:wrap;gap:10px 34px;justify-content:center;font-weight:700;color:#1a1400;font-size:1.02rem}
+section{padding:70px 0}
+h2{font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:800;margin-bottom:12px;color:var(--navy)}
+.lead{color:var(--muted);font-size:1.1rem;max-width:720px;margin-bottom:36px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+.card{background:var(--card);border:1px solid #e4eaf2;border-radius:14px;padding:28px;transition:.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(13,43,82,.1)}
+.card .icon{font-size:1.9rem;margin-bottom:12px}
+.card h3{font-size:1.2rem;color:var(--navy);margin-bottom:8px}
+.card p{color:var(--muted);font-size:.98rem}
+.about{background:var(--bg)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+@media(max-width:800px){.about-grid{grid-template-columns:1fr}}
+.badge{display:inline-block;background:var(--navy);color:#fff;padding:6px 16px;border-radius:999px;font-size:.85rem;font-weight:700;margin-bottom:14px}
+.checklist{list-style:none;margin-top:16px}
+.checklist li{padding:8px 0 8px 30px;position:relative;color:var(--ink)}
+.checklist li::before{content:"✓";position:absolute;left:0;color:var(--amber);font-weight:800;font-size:1.2rem}
+.steps{background:var(--navy);color:#fff}
+.steps h2{color:#fff}
+.steps .lead{color:#b9c9e2}
+.step-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;margin-top:10px}
+.step{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.15);border-radius:14px;padding:26px}
+.step .num{background:var(--amber);color:#1a1400;font-weight:800;width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.step h3{margin-bottom:6px}
+.step p{color:#b9c9e2;font-size:.96rem}
+.contact{background:var(--bg)}
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;margin-top:8px}
+.contact-card{background:#fff;border-radius:14px;padding:30px;border:1px solid #e4eaf2}
+.contact-card h3{color:var(--navy);margin-bottom:10px}
+.contact-card p,.contact-card a{color:var(--muted);text-decoration:none}
+.contact-card a.big{font-size:1.5rem;font-weight:800;color:var(--navy);text-decoration:none}
+.contact-card a.big:hover{color:var(--amber)}
+footer{background:#081a38;color:#93a7c4;padding:30px 0;text-align:center;font-size:.92rem}
+.cta-band{background:linear-gradient(120deg,#f5a623,#f8c04e);padding:56px 0;text-align:center;color:#1a1400}
+.cta-band h2{color:#1a1400;margin-bottom:10px}
+.cta-band p{margin-bottom:22px;font-weight:500}
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="nav">
+    <div class="brand">CARTER BROTHERS <span>ROOFING</span></div>
+    <div class="nav-cta">
+      <a class="btn btn-amber" href="tel:+15139572600">Call (513) 957-2600</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Found the Leak. <span>Fixed for Good.</span><br>Cincinnati's Roof Repair Specialists.</h1>
+    <p>Experienced roofers serving Cincinnati, Ohio. From stubborn leaks to full roof replacements — fast bookings, honest work, done right the first time.</p>
+    <div class="hero-btns">
+      <a class="btn btn-amber" href="tel:+15139572600">Call (513) 957-2600</a>
+      <a class="btn btn-outline" href="#services">See Our Services</a>
+    </div>
+  </div>
+</section>
+
+<div class="trust">
+  <div class="wrap trust-row">
+    <span>✓ Leak Detection Specialists</span>
+    <span>✓ Fast Bookings &amp; Scheduling</span>
+    <span>✓ Cincinnati, OH</span>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <h2>Roofing Services for Cincinnati</h2>
+    <p class="lead">One call covers everything your roof needs — from finding the leak to replacing the whole thing.</p>
+    <div class="grid">
+      <div class="card"><div class="icon">🔍</div><h3>Leak Detection &amp; Repair</h3><p>We identify exactly where water is entering and seal it properly — no guesswork, no callbacks.</p></div>
+      <div class="card"><div class="icon">⛈️</div><h3>Storm &amp; Hail Damage Repair</h3><p>Fast repairs for roofs hit by severe weather, wind uplift, and hail damage.</p></div>
+      <div class="card"><div class="icon">🏠</div><h3>Full Roof Replacement</h3><p>Complete tear-off and re-roofing with quality materials, installed to last.</p></div>
+      <div class="card"><div class="icon">🧱</div><h3>Shingle Replacement</h3><p>Damaged or missing shingles replaced to match and protect your roof.</p></div>
+      <div class="card"><div class="icon">🪟</div><h3>Flashing, Skylight &amp; Chimney</h3><p>Sealing and repair around roof protrusions, skylights, and chimneys.</p></div>
+      <div class="card"><div class="icon">🚿</div><h3>Gutter Cleaning &amp; Repair</h3><p>Gutters and downspouts cleared of debris and properly reattached.</p></div>
+      <div class="card"><div class="icon">📐</div><h3>Flat Roof Repair</h3><p>Fixing leaks, punctures, and pooling water on flat and low-slope roofs.</p></div>
+      <div class="card"><div class="icon">🛡️</div><h3>Waterproofing &amp; Ventilation</h3><p>Protective sealants, insulation, and ventilation fixes to stop moisture problems.</p></div>
+      <div class="card"><div class="icon">🏗️</div><h3>Structural Repair</h3><p>Addressing sagging, deterioration, and soffit &amp; fascia damage.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <div class="wrap about-grid">
+    <div>
+      <span class="badge">ABOUT US</span>
+      <h2>Cincinnati Roofers Who Find What Others Miss</h2>
+      <p class="lead" style="margin-bottom:0">Carter Brothers Roofing built its name on leak detection — the hardest job in roofing. That same careful, thorough approach goes into every repair and replacement we do.</p>
+      <ul class="checklist">
+        <li>Experienced local roofers — not a national call center</li>
+        <li>Fast bookings and scheduling for urgent leaks</li>
+        <li>Honest assessments: repair when possible, replace when needed</li>
+        <li>Serving Cincinnati, Ohio and surrounding areas</li>
+      </ul>
+    </div>
+    <div>
+      <span class="badge">WHY HOMEOWNERS CALL US</span>
+      <h2>Leaks Don't Fix Themselves</h2>
+      <p>A small drip today becomes stained ceilings, mold, and rotten decking tomorrow. The sooner we find the source, the less it costs you.</p>
+    </div>
+  </div>
+</section>
+
+<section class="steps">
+  <div class="wrap">
+    <h2>How It Works</h2>
+    <p class="lead">Simple, fast, and transparent from the first call to the final cleanup.</p>
+    <div class="step-row">
+      <div class="step"><div class="num">1</div><h3>Call Us</h3><p>Dial (513) 957-2600 to book your appointment — fast scheduling, same-day where possible.</p></div>
+      <div class="step"><div class="num">2</div><h3>We Inspect</h3><p>We find the real source of the problem and give you a straight, honest quote.</p></div>
+      <div class="step"><div class="num">3</div><h3>We Fix It</h3><p>Professional repair or replacement, done right and cleaned up when we're finished.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap">
+    <h2>Have a Leak? Don't Wait.</h2>
+    <p>Call now for fast bookings and scheduling.</p>
+    <a class="btn" style="background:#0d2b52;color:#fff" href="tel:+15139572600">Call (513) 957-2600</a>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2>Contact Us</h2>
+    <p class="lead">Call, or visit us — we'd love to help with your roof.</p>
+    <div class="contact-grid">
+      <div class="contact-card"><h3>Call Us</h3><a class="big" href="tel:+15139572600">(513) 957-2600</a><p>Fast bookings and scheduling</p></div>
+      <div class="contact-card"><h3>Visit Us</h3><p>362 Anderson Ferry Rd<br>Cincinnati, OH 45238</p></div>
+      <div class="contact-card"><h3>Hours</h3><p>Mon–Fri: 8:00 AM – 6:00 PM<br>Sat–Sun: 9:00 AM – 3:00 PM</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© 2026 Carter Brothers Roofing · Cincinnati, OH · (513) 957-2600</div>
+</footer>
+</body>
+</html>
